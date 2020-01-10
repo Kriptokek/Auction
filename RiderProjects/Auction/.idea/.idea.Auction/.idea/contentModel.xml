@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\plumb\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\plumb\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\plumb\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\plumb\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Auction.491995733.00" t="ExcludeRecursive" />
+    <e p="C:\Users\plumb\RiderProjects\Auction" t="IncludeFlat">
+      <e p="Auction.sln" t="IncludeFlat" />
+      <e p="BLL" t="IncludeRecursive">
+        <e p=".bin" t="Include">
+          <e p="git.cmd" t="Include" />
+          <e p="node.cmd" t="Include" />
+          <e p="npm.cmd" t="Include" />
+        </e>
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL.csproj" t="IncludeRecursive" />
+        <e p="DTOs" t="Include">
+          <e p="AuctionLotDTO.cs" t="Include" />
+          <e p="ProductDTO.cs" t="Include" />
+          <e p="UserDTO.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IAuctionLotService.cs" t="Include" />
+          <e p="IProductService.cs" t="Include" />
+          <e p="IUserService.cs" t="Include" />
+        </e>
+        <e p="MapConfig.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="ServiceModule.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="AuctionLotService.cs" t="Include" />
+          <e p="ProductService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
+        </e>
+        <e p="ValidationException.cs" t="Include" />
+      </e>
+      <e p="DAL" t="IncludeRecursive">
+        <e p=".bin" t="Include">
+          <e p="git.cmd" t="Include" />
+          <e p="node.cmd" t="Include" />
+          <e p="npm.cmd" t="Include" />
+        </e>
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DAL.csproj" t="IncludeRecursive" />
+        <e p="DALContext.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="AuctionLot.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="202001061042415_InitialModel.cs" t="Include" />
+          <e p="202001061042415_InitialModel.Designer.cs" t="Include" />
+          <e p="202001061042415_InitialModel.resx" t="Include" />
+          <e p="202001061839164_NotRequiredDateinProduct.cs" t="Include" />
+          <e p="202001061839164_NotRequiredDateinProduct.Designer.cs" t="Include" />
+          <e p="202001061839164_NotRequiredDateinProduct.resx" t="Include" />
+          <e p="202001061902197_NewMigration.cs" t="Include" />
+          <e p="202001061902197_NewMigration.Designer.cs" t="Include" />
+          <e p="202001061902197_NewMigration.resx" t="Include" />
+          <e p="202001061916553_AuctionLotAdding.cs" t="Include" />
+          <e p="202001061916553_AuctionLotAdding.Designer.cs" t="Include" />
+          <e p="202001061916553_AuctionLotAdding.resx" t="Include" />
+          <e p="202001061919572_ChangeProperiesOfLotToRequired.cs" t="Include" />
+          <e p="202001061919572_ChangeProperiesOfLotToRequired.Designer.cs" t="Include" />
+          <e p="202001061919572_ChangeProperiesOfLotToRequired.resx" t="Include" />
+          <e p="202001071533223_AddNewLot.cs" t="Include" />
+          <e p="202001071533223_AddNewLot.Designer.cs" t="Include" />
+          <e p="202001071533223_AddNewLot.resx" t="Include" />
+          <e p="202001071659397_AuctionLotUpdating.cs" t="Include" />
+          <e p="202001071659397_AuctionLotUpdating.Designer.cs" t="Include" />
+          <e p="202001071659397_AuctionLotUpdating.resx" t="Include" />
+          <e p="202001071702066_ComplexTypeAdding.cs" t="Include" />
+          <e p="202001071702066_ComplexTypeAdding.Designer.cs" t="Include" />
+          <e p="202001071702066_ComplexTypeAdding.resx" t="Include" />
+          <e p="202001071705257_NewUpdatingLot.cs" t="Include" />
+          <e p="202001071705257_NewUpdatingLot.Designer.cs" t="Include" />
+          <e p="202001071705257_NewUpdatingLot.resx" t="Include" />
+          <e p="202001091005056_AddingRoleandUpdatingUserMigration.cs" t="Include" />
+          <e p="202001091005056_AddingRoleandUpdatingUserMigration.Designer.cs" t="Include" />
+          <e p="202001091005056_AddingRoleandUpdatingUserMigration.resx" t="Include" />
+          <e p="202001091007578_UpdatingData.cs" t="Include" />
+          <e p="202001091007578_UpdatingData.Designer.cs" t="Include" />
+          <e p="202001091007578_UpdatingData.resx" t="Include" />
+          <e p="202001091026493_qwerty.cs" t="Include" />
+          <e p="202001091026493_qwerty.Designer.cs" t="Include" />
+          <e p="202001091026493_qwerty.resx" t="Include" />
+          <e p="202001091539449_UpdateLot.cs" t="Include" />
+          <e p="202001091539449_UpdateLot.Designer.cs" t="Include" />
+          <e p="202001091539449_UpdateLot.resx" t="Include" />
+          <e p="Configuration.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Repository.cs" t="Include" />
+        <e p="UnitOfWork.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WebApplication1" t="IncludeRecursive">
+        <e p="Angular\node_modules\@angular\animations" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\cli" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\common" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\compiler" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\compiler-cli" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\core" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\forms" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\platform-browser" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\platform-browser-dynamic" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular\router" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular-devkit\architect" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular-devkit\build-angular" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular-devkit\build-optimizer" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular-devkit\build-webpack" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular-devkit\core" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@angular-devkit\schematics" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@ngtools\webpack" t="IncludeRecursive" />
+        <e p="Angular\node_modules\@types" t="IncludeRecursive">
+          <e p="events" t="IncludeRecursive" />
+          <e p="jasmine" t="IncludeRecursive" />
+          <e p="jasminewd2" t="IncludeRecursive" />
+          <e p="minimatch" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+          <e p="source-list-map" t="IncludeRecursive" />
+        </e>
+        <e p="Angular\node_modules\ajv" t="IncludeRecursive" />
+        <e p="Angular\node_modules\blocking-proxy" t="IncludeRecursive" />
+        <e p="Angular\node_modules\canonical-path" t="IncludeRecursive" />
+        <e p="Angular\node_modules\chalk" t="IncludeRecursive" />
+        <e p="Angular\node_modules\chokidar" t="IncludeRecursive" />
+        <e p="Angular\node_modules\codelyzer" t="IncludeRecursive" />
+        <e p="Angular\node_modules\commander" t="IncludeRecursive" />
+        <e p="Angular\node_modules\dependency-graph" t="IncludeRecursive" />
+        <e p="Angular\node_modules\es6-promise" t="IncludeRecursive" />
+        <e p="Angular\node_modules\fast-deep-equal" t="IncludeRecursive" />
+        <e p="Angular\node_modules\jasmine-core" t="IncludeRecursive" />
+        <e p="Angular\node_modules\jasmine-spec-reporter" t="IncludeRecursive" />
+        <e p="Angular\node_modules\jest-worker" t="IncludeRecursive" />
+        <e p="Angular\node_modules\karma" t="IncludeRecursive" />
+        <e p="Angular\node_modules\karma-chrome-launcher" t="IncludeRecursive" />
+        <e p="Angular\node_modules\karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+        <e p="Angular\node_modules\karma-jasmine" t="IncludeRecursive" />
+        <e p="Angular\node_modules\karma-jasmine-html-reporter" t="IncludeRecursive" />
+        <e p="Angular\node_modules\license-webpack-plugin" t="IncludeRecursive" />
+        <e p="Angular\node_modules\magic-string" t="IncludeRecursive" />
+        <e p="Angular\node_modules\portfinder" t="IncludeRecursive" />
+        <e p="Angular\node_modules\postcss" t="IncludeRecursive" />
+        <e p="Angular\node_modules\protractor" t="IncludeRecursive" />
+        <e p="Angular\node_modules\reflect-metadata" t="IncludeRecursive" />
+        <e p="Angular\node_modules\rxjs" t="IncludeRecursive" />
+        <e p="Angular\node_modules\source-map" t="IncludeRecursive" />
+        <e p="Angular\node_modules\sourcemap-codec" t="IncludeRecursive" />
+        <e p="Angular\node_modules\symbol-observable" t="IncludeRecursive" />
+        <e p="Angular\node_modules\terser" t="IncludeRecursive" />
+        <e p="Angular\node_modules\tree-kill" t="IncludeRecursive" />
+        <e p="Angular\node_modules\ts-node" t="IncludeRecursive" />
+        <e p="Angular\node_modules\tslib" t="IncludeRecursive" />
+        <e p="Angular\node_modules\tslint" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.dom.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.dom.iterable.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.collection.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.core.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.generator.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.promise.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2016.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2016.full.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2017.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2017.full.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2017.intl.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2017.object.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2017.string.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2018.asynciterable.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2018.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2018.full.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2018.intl.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2018.promise.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2018.regexp.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2019.array.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2019.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2019.full.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2019.object.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2019.string.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2019.symbol.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2020.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2020.full.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2020.string.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es2020.symbol.wellknown.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es5.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.es6.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.esnext.array.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.esnext.bigint.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.esnext.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.esnext.full.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.esnext.intl.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.esnext.symbol.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\typescript\lib\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
+        <e p="Angular\node_modules\upath" t="IncludeRecursive" />
+        <e p="Angular\node_modules\uri-js" t="IncludeRecursive" />
+        <e p="Angular\node_modules\webdriver-js-extender" t="IncludeRecursive" />
+        <e p="Angular\node_modules\worker-farm" t="IncludeRecursive" />
+        <e p="Angular\node_modules\zone.js" t="IncludeRecursive" />
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="IdentityConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+          <e p="Startup.Auth.cs" t="Include" />
+          <e p="WebApiConfig.cs" t="Include" />
+        </e>
+        <e p="Areas" t="Include">
+          <e p="HelpPage" t="Include">
+            <e p="ApiDescriptionExtensions.cs" t="Include" />
+            <e p="App_Start" t="Include">
+              <e p="HelpPageConfig.cs" t="Include" />
+            </e>
+            <e p="Controllers" t="Include">
+              <e p="HelpController.cs" t="Include" />
+            </e>
+            <e p="HelpPage.css" t="Include" />
+            <e p="HelpPageAreaRegistration.cs" t="Include" />
+            <e p="HelpPageConfigurationExtensions.cs" t="Include" />
+            <e p="ModelDescriptions" t="Include">
+              <e p="CollectionModelDescription.cs" t="Include" />
+              <e p="ComplexTypeModelDescription.cs" t="Include" />
+              <e p="DictionaryModelDescription.cs" t="Include" />
+              <e p="EnumTypeModelDescription.cs" t="Include" />
+              <e p="EnumValueDescription.cs" t="Include" />
+              <e p="IModelDocumentationProvider.cs" t="Include" />
+              <e p="KeyValuePairModelDescription.cs" t="Include" />
+              <e p="ModelDescription.cs" t="Include" />
+              <e p="ModelDescriptionGenerator.cs" t="Include" />
+              <e p="ModelNameAttribute.cs" t="Include" />
+              <e p="ModelNameHelper.cs" t="Include" />
+              <e p="ParameterAnnotation.cs" t="Include" />
+              <e p="ParameterDescription.cs" t="Include" />
+              <e p="SimpleTypeModelDescription.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="HelpPageApiModel.cs" t="Include" />
+            </e>
+            <e p="SampleGeneration" t="Include">
+              <e p="HelpPageSampleGenerator.cs" t="Include" />
+              <e p="HelpPageSampleKey.cs" t="Include" />
+              <e p="ImageSample.cs" t="Include" />
+              <e p="InvalidSample.cs" t="Include" />
+              <e p="ObjectGenerator.cs" t="Include" />
+              <e p="SampleDirection.cs" t="Include" />
+              <e p="TextSample.cs" t="Include" />
+            </e>
+            <e p="Views" t="Include">
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Help" t="Include">
+                <e p="Api.cshtml" t="Include" />
+                <e p="DisplayTemplates" t="Include">
+                  <e p="ApiGroup.cshtml" t="Include" />
+                  <e p="CollectionModelDescription.cshtml" t="Include" />
+                  <e p="ComplexTypeModelDescription.cshtml" t="Include" />
+                  <e p="DictionaryModelDescription.cshtml" t="Include" />
+                  <e p="EnumTypeModelDescription.cshtml" t="Include" />
+                  <e p="HelpPageApiModel.cshtml" t="Include" />
+                  <e p="ImageSample.cshtml" t="Include" />
+                  <e p="InvalidSample.cshtml" t="Include" />
+                  <e p="KeyValuePairModelDescription.cshtml" t="Include" />
+                  <e p="ModelDescriptionLink.cshtml" t="Include" />
+                  <e p="Parameters.cshtml" t="Include" />
+                  <e p="Samples.cshtml" t="Include" />
+                  <e p="SimpleTypeModelDescription.cshtml" t="Include" />
+                  <e p="TextSample.cshtml" t="Include" />
+                </e>
+                <e p="Index.cshtml" t="Include" />
+                <e p="ResourceModel.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="_Layout.cshtml" t="Include" />
+              </e>
+              <e p="Web.config" t="Include" />
+            </e>
+            <e p="XmlDocumentationProvider.cs" t="Include" />
+          </e>
+        </e>
+        <e p="AuctionModule.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+          <e p="Site.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="AuctionLotController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="ProductController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="MapperProfile.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="AccountBindingModels.cs" t="Include" />
+          <e p="AccountViewModels.cs" t="Include" />
+          <e p="AuctionLot.cs" t="Include" />
+          <e p="IdentityModels.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Providers" t="Include">
+          <e p="ApplicationOAuthProvider.cs" t="Include" />
+        </e>
+        <e p="Results" t="Include">
+          <e p="ChallengeResult.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-2.2.4-vsdoc.js" t="Include" />
+          <e p="jquery-2.2.4.js" t="Include" />
+          <e p="jquery-2.2.4.min.js" t="Include" />
+          <e p="jquery-2.2.4.min.map" t="Include" />
+          <e p="jquery-3.4.1.intellisense.js" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          <e p="modernizr-2.8.3.js" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="MainLay.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+        <e p="WebApplication1.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
