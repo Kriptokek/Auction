@@ -1,0 +1,90 @@
+﻿<div id="tableBlock1"></div>
+<div>
+    <p>Текущая цена: <output name="result" id="bet"></output></p>
+</div>
+<label>ваша ставка</label><br/>
+<input type="text" id="makeBet" /><br /><br />
+<input type="submit" id="makeBetsubmit" value="сделать ставку" />
+<div id="tableBlock2"></div>
+
+@section scripts{
+    <script type="text/javascript">
+    $(function () {
+                                                    $.ajax({
+                                                        type: 'GET',
+                                                        url: '/api/auctionLot',
+                                                        success: function (data) {
+                                                            WriteData(data);
+                                                        },
+                                                        fail: function (data) {
+                                                            alert(data);
+                                                        }
+                                                    });
+                                            });
+                                            function WriteData(lots) {
+                                                    var strResult = "<table><th>ID</th><th>Название</th>";
+                                                    $.each(lots, function (index, lot) {
+                                                        strResult += "<tr><td>" + lot.Id + "</td><td> " + lot.Title + 
+                                                        "<td><a id='delItem' data-item='" + lot.Id + "' onclick='GotoItem(this);' >Перейти</a></td></tr>";
+                                                    });
+                                                    strResult += "</table>";
+                                                    $("#tableBlock2").html(strResult);
+                                                     
+                                                }
+                                                function GotoItem(el) {
+                                                        // получаем id удаляемого объекта
+                                                        var id = $(el).attr('data-item');
+                                                        GoToLot(id);
+                                                    }
+                                                    function GoToLot(id)
+                                                    {
+                                                        $.ajax({
+                                                                    url: '/api/auctionlot/' + id,
+                                                                    type: 'GET',
+                                                                    data: JSON.stringify(),
+                                                                    contentType: "application/json;charset=utf-8",
+                                                                    success: function (data) {
+                                                                        WriteDataLots(data);
+                                                                    },
+                                                                    error: function (x, y, z) {
+                                                                        alert(x + '\n' + y + '\n' + z);
+                                                                    }
+                                                                });
+                                                    }
+                                                    function WriteDataLots(lot) {
+                                                                                        var strResult = "<table><th>ID</th><th>Название</th>";
+                                                                                        var strLastBet = "";
+                                                                                            strResult += "<tr><td>" + lot.Id + "</td><td> " + lot.Title + 
+                                                                                            "<td><a id='delItem' data-item='" + lot.Id + "' onclick='DeleteItem(this);' >Удалить</a></td></tr>";
+                                                                                        strResult += "</table>";
+                                                                                        strLastBet += "<tr><td>" + lot.LastBet + "</td></tr>";
+                                                                                        $("#tableBlock1").html(strResult);
+                                                                                        $("#bet").html(strLastBet);
+                                                                                    }
+    $(function () {
+        $('#makeBetsubmit').click(function (e) {
+                            e.preventDefault();
+                            var makeBet = $('#makeBet').val();
+                            var lot = {
+                                            Id: 1,
+                                            Title: "NewLot"
+                                        };
+                            if(makeBet < lot.LastBet)
+                                alert("Error!");
+                            $.ajax({
+                                type: 'PUT',
+                                url: '/api/auctionLot?newbet=' + $('#makeBet').val(),
+                                data: JSON.stringify(lot),
+                                contentType: "application/json;charset=utf-8",
+                                success: function (data) {
+                                    location.reload();
+                                },
+                                fail: function (data) {
+                                    alert(data);
+                                }
+                            });
+                        });
+                            
+                        });
+    </script>
+}

@@ -1,0 +1,57 @@
+﻿<div>
+    <label>Введите email</label><br />
+    <input type="email" id="email" /> <br /><br />
+    <label>Введите пароль</label><br />
+    <input type="password" id="password" /><br /><br />
+    <label>Подтвердите пароль</label><br />
+    <input type="password" id="confirmpassword" /><br /><br />
+    <label>Введите Имя</label><br />
+    <input type="text" id="nameid" /><br /><br />
+    <label>Введите фамилию</label><br />
+    <input type="text" id="lastnameid" /><br /><br />
+    <input type="submit" id="submit" value="Регистрация" />
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+    $(function () {
+        $('#submit').click(function (e) {
+            e.preventDefault();
+            var data = {
+                Email: $('#email').val(),
+                Password: $('#password').val(),
+                ConfirmPassword: $('#confirmpassword').val()
+            };
+             var user = {
+                            FirstName: $('#nameid').val(),
+                            LastName: $('#lastnameid').val(),
+                            Email: $('#emailLogin').val(),
+                            Password: $('#passwordLogin').val(),
+                            Role: "Simple User"
+                                            };
+            $.ajax({
+                type: 'POST',
+                url: '/api/Account/Register',
+                contentType: 'application/json; charset=utf-8',
+                data: JSON.stringify(data)
+            }).success(function (data) {
+                alert("Регистрация пройдена");
+            }).fail(function (data) {
+                alert("В процесе регистрации возникла ошибка");
+            });
+             $.ajax({
+                                    url: '/api/users/',
+                                    type: 'POST',
+                                    data: JSON.stringify(user),
+                                    contentType: "application/json;charset=utf-8",
+                                    success: function (data) {
+                                        alert("User has been created");
+                                    },
+                                    error: function (x, y, z) {
+                                        alert(x + '\n' + y + '\n' + z);
+                                    }
+                                });
+        });
+    });
+    </script>
+}
